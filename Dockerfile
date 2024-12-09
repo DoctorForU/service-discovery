@@ -14,4 +14,4 @@ RUN ./gradlew clean build -x test
 COPY . .
 
 # JAR 파일 실행 설정
-ENTRYPOINT ["java", "-jar", "/usr/src/app/discovery-service.jar"]
+ENTRYPOINT ["java", "-jar", "/usr/src/app/service-discovery.jar"]
