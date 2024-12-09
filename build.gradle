@@ -20,7 +20,7 @@ ext {
 }
 
 bootJar {
-    archiveBaseName = 'discovery-service'  // 실행 가능한 JAR 파일 이름 설정
+    archiveBaseName = 'service-discovery'  // 실행 가능한 JAR 파일 이름 설정
     archiveVersion = ''                // 버전 정보 제거
 }
 	
