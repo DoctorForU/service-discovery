@@ -15,7 +15,7 @@ COPY src src
 RUN ./gradlew clean build -x test
 
 # Stage 2: Runtime
-FROM openjdk:21-jre-slim
+FROM openjdk:21-slim
 
 # 작업 디렉토리 설정
 WORKDIR /app
